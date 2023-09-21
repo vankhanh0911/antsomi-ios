@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "AntsomiFramework"
-  spec.version      = "0.0.2"
+  spec.name         = "Antsomi"
+  spec.version      = "0.0.3"
   spec.summary      = "Antsomi IOS SDK."
 
   # This description is used to generate tags and improve search results.

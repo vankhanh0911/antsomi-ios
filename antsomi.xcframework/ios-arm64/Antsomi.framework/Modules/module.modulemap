@@ -1,0 +1,11 @@
+framework module Antsomi {
+  umbrella header "Antsomi.h"
+
+  export *
+  module * { export * }
+}
+
+module Antsomi.Swift {
+  header "Antsomi-Swift.h"
+  requires objc
+}
