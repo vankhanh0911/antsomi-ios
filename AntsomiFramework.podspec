@@ -17,17 +17,16 @@ Pod::Spec.new do |spec|
 
   spec.name         = "AntsomiFramework"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of AntsomiFramework."
+  spec.summary      = "Antsomi IOS SDK."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  spec.description  = "Antsomi IOS SDK. Integrate with CDP 365 with feature: Event, App Push, Media Template, In-app Messaging"
 
-  spec.homepage     = "http://EXAMPLE/AntsomiFramework"
+  spec.homepage     = "https://antsomi.com"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,8 +37,8 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  # spec.license      = "MIT"
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -63,6 +62,7 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
+  spec.platform     = :ios, "11.0"
   # spec.platform     = :ios
   # spec.platform     = :ios, "5.0"
 
@@ -79,7 +79,8 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/AntsomiFramework.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/vankhanh0911/antsomi-ios.git", :tag => "#{spec.version}" }
+  spec.ios.vendored_frameworks = 'antsomi.xcframework'
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,8 +91,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -134,4 +135,6 @@ Pod::Spec.new do |spec|
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
 
+  spec.dependency 'Socket.IO-Client-Swift', '~> 16.0.0'
+  spec.dependency 'Starscream', '4.0.4'
 end
