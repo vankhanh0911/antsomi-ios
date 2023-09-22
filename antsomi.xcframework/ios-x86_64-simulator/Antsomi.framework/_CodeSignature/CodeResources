@@ -4,6 +4,30 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/SocketIO.framework/Info.plist</key>
+		<data>
+		3TZF2ixYdH5GxboLgB82FwD4xuc=
+		</data>
+		<key>Frameworks/SocketIO.framework/SocketIO</key>
+		<data>
+		VAiz+R0EjHSLHKAFeSvN/n/BFpU=
+		</data>
+		<key>Frameworks/SocketIO.framework/_CodeSignature/CodeResources</key>
+		<data>
+		MwvgnbaOq20b6KEG/MT3M3+oBvY=
+		</data>
+		<key>Frameworks/Starscream.framework/Info.plist</key>
+		<data>
+		sLyxIRiFbWWT8rxQumzw9AdabqM=
+		</data>
+		<key>Frameworks/Starscream.framework/Starscream</key>
+		<data>
+		aKQmR1plOHX175BFC/3O/p9m6Eg=
+		</data>
+		<key>Frameworks/Starscream.framework/_CodeSignature/CodeResources</key>
+		<data>
+		u6EyvFEPsZphAJwkp9wlG/qWKR8=
+		</data>
 		<key>Headers/Antsomi-Swift.h</key>
 		<data>
 		TvtHC0puXFyFL22TwpZebb96Bz4=
@@ -38,7 +62,7 @@
 		</data>
 		<key>Modules/Antsomi.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GVogmcimlGbaFvuSpglhXGzfscY=
+		H+iy8lYlrmw/OSVqP9UWLzhwf8s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,6 +71,48 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/SocketIO.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TBQ/jjjnJNtp/JyphD93opZ5xXlWMrRPIo41jMJQmDg=
+			</data>
+		</dict>
+		<key>Frameworks/SocketIO.framework/SocketIO</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mNNLnGGjjtvSU5KceDY9DRgOPlg3d/yy9pieOqZpqeM=
+			</data>
+		</dict>
+		<key>Frameworks/SocketIO.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			39ui8+K9X3JLZ17OapNFN4xM8qijtTlFVrJ1f5dFCdU=
+			</data>
+		</dict>
+		<key>Frameworks/Starscream.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qriKVIDgKRexoP2Jog0LJdwHKQ8zkM00oSQB2qwFkKk=
+			</data>
+		</dict>
+		<key>Frameworks/Starscream.framework/Starscream</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dyVnUO5ezRvgyGD3fsuECyYMEoqlzIVMAyzc/9aDUiQ=
+			</data>
+		</dict>
+		<key>Frameworks/Starscream.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BXdYOVZe6/XZqFe7b2I3WoUhMcFBfe0W80ip0kHXVoo=
+			</data>
+		</dict>
 		<key>Headers/Antsomi-Swift.h</key>
 		<dict>
 			<key>hash2</key>
@@ -100,7 +166,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9ZZHp/ojOqObwIaq2T/Vzv3EPQz9IEURKcy0t7Z61DM=
+			ot+hSCR37rzLGp81N6wWGPQl8IpwE5ONWX7lKOJPTMA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
