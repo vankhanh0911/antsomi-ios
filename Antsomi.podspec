@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source       = { :git => "https://github.com/vankhanh0911/antsomi-ios.git", :tag => "#{spec.version}" }
-  spec.ios.vendored_frameworks = 'Antsomi.xcframework'
+  spec.ios.vendored_frameworks = 'antsomi.xcframework'
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
